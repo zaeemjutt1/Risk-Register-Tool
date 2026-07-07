@@ -7,8 +7,8 @@ CSV input. Calculates risk scores (Likelihood x Impact), classifies risk
 levels, sorts findings by priority, and exports a formatted report in
 Markdown, CSV, and optionally HTML.
 
-Author: Affan Bin Adnan
-License: MIT
+Author: Muhammad Zaeem Siddiqui
+License: MZS
 """
 
 import csv
