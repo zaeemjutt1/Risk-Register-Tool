@@ -1,0 +1,11 @@
+id,asset,threat,existing_controls,likelihood,impact,recommended_action,iso_control
+R1,Customer Database,SQL injection / unauthorized access,Basic firewall,3,3,"Implement WAF, input validation, quarterly penetration testing",A.14.2.8
+R2,Source Code Repositories,Accidental exposure of private repos / credential leakage,Private repos enabled,2,3,"Enable branch protection, secret scanning, enforce MFA",A.9.4.2
+R3,Employee Workstations,Malware / ransomware infection,Antivirus installed,2,3,"Deploy EDR solution, enforce patch management, user training",A.12.2.1
+R4,Cloud Infrastructure (AWS),Misconfigured S3 buckets / open security groups,Basic IAM policies,3,3,"Implement CSPM tool, enforce least privilege IAM",A.13.1.1
+R5,Email System,Phishing attacks targeting employees,Spam filter enabled,3,2,"Enable Advanced Protection, conduct phishing simulations",A.7.2.2
+R6,Financial Records,Insider threat / unauthorized access,Role-based access,2,3,"Implement audit logging, quarterly access reviews",A.12.3.1
+R7,Physical Office,Unauthorized physical access to server room,Door lock,2,2,"Install CCTV, access card system, visitor log policy",A.11.1.2
+R8,All Systems,No formal backup and recovery procedure,Ad-hoc backups,2,3,"Implement 3-2-1 backup strategy, test recovery quarterly",A.12.3.1
+R9,VPN Gateway,Outdated firmware with known CVEs,Manual patching,3,3,"Implement automated patch management, vulnerability scanning",A.12.6.1
+R10,Mobile Devices,Lost or stolen devices with company data,Basic passcode,2,2,"Implement MDM, enable remote wipe, enforce encryption",A.6.2.1

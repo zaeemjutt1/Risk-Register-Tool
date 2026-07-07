@@ -1,0 +1,8 @@
+output/*.md
+output/*.csv
+!sample_data/sample_risks.csv
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+.idea/
