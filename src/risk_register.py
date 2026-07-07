@@ -8,7 +8,7 @@ levels, sorts findings by priority, and exports a formatted report in
 Markdown, CSV, and optionally HTML.
 
 Author: Muhammad Zaeem Siddiqui
-License: MZS
+License: MIT
 """
 
 import csv
