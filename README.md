@@ -116,9 +116,7 @@ risk-register-tool/
 
 ## Author
 
-**Affan Bin Adnan**
-DevOps & Cybersecurity | EduQual Level 4 Diploma in DevOps and Cloud Cybersecurity
-[LinkedIn](https://www.linkedin.com/in/affan-bin-adnan-/)
+**Muhammad Zaeem Siddiqui**
 
 ## License
 
